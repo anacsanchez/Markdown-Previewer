@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #207faf;
+}
+
+blockquote {
+  border-left: 3px solid lightgray;
+  margin-block-start: 1em;
+  margin-inline-start: 1em;
+}
+
+blockquote > p {
+  padding: .25em 1em .25em 1em;
+  color: gray;
+}
+
+pre {
+  background-color: black;
+  color: white;
+  padding: .5em;
+}
+
+.container {
+  width: 49%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.container-title {
+  width: 70%;
+  padding: .25em .5em .25em .5em;
+  text-align: center;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.left-border {
+  border-left: 1px solid gray;
+}
+
+.right-border {
+  border-right: 1px solid gray;
+}
+
+.left {
+  align-items: flex-end;
+}
+.right {
+  align-items: flex-start;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+#markdown {
+  display: flex;
+  justify-content: center;
+}
+
+#editor {
+  width: 70%;
+  padding: .5em;
+  font-size: 1em;
+  height: 90%;
+}
+
+#preview {
+  border: 1px solid black;
+  width: 70%;
+  padding: .5em;
+  height: 90%;
+  overflow: scroll;
+  background-color: white;
+}

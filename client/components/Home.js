@@ -1,7 +1,12 @@
 import React from 'react';
+import { Markdown } from './index';
+
 const Home = () => {
   return (
-    <div>Test</div>
+    <div>
+      <h3 className="title">Markdown Previewer</h3>
+      <Markdown />
+    </div>
   )
 }
 
