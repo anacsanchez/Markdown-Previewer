@@ -1,10 +1,11 @@
 import React from 'react';
-import Routes from './routes';
+import { Markdown } from './components';
 
 const App = () => {
   return (
     <div>
-      <Routes />
+      <h3 className="title">Markdown Previewer</h3>
+      <Markdown />
     </div>
   )
 }

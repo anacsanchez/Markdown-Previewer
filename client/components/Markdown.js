@@ -41,6 +41,7 @@ const defaultInput = `# h1
 
 ## h2
 \`inline code\`
+
 [Link](www.google.com)
 \`\`\`
 let codeblock
